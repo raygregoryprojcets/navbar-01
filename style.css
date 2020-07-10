@@ -1,3 +1,4 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@500&display=swap');
 
 body{
@@ -206,4 +207,82 @@ footer{
 .container-fluid{
     width: 100%;
     margin-bottom: -200px;
+}
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frist{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+div {
+    display: flex;
+}
+.menu .left .logo img{
+    max-height: 56px;
+    max-width: 76px;
+    padding: 8px 4px 8px 12px;
+    vertical-align: middle;
+    float: left;
+    margin-left: 10px;
+}
+.menu .left .text h1{
+    line-height: 1;
+    max-width: 480px;
+    outline: none;
+    overflow: hidden;
+    padding: 16px 12px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    float: left;
+    margin: 0 0 0 4px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.menu .right .menu-bar {
+    position: absolute;
+    right: 60px;
+    margin-top: 20px;
+}
+.menu .right .menu-bar ul {
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+.menu .right .menu-bar ul li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    padding: 5px 7px;
+}
+.menu .right .menu-bar ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6399999857);
+    font-size: 20px;
+    font-weight: 300;
+}
+.menu .right .menu-bar ul li:hover a{
+    color: rgb(12, 11, 11);
+    font-weight: 500;
+    text-decoration: underline;
+}
+.menu .right .search-box i{
+    display: flex;
+    position: absolute;
+    right: 29px;
+    color: rgba(0,0,0,0.6399999857);
+    font-size: 23px;
+    margin-top: 20px;
+}
+.menu .right .search-box i:hover{
+    color: black;
+}
+.second{
+    background: rgb(16, 228, 16);
 }
