@@ -1,288 +1,83 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@500&display=swap');
-
-body{
-    padding: 0;
-    margin: 0;
-}
-
-.logo{
-    margin-top: 20px;
-}
-.menu-bar{
-    margin-top: 30px;
-}
-.top-part{
-    background-color: #F0FFF0;
-    margin-top: -105px;
-}
-.top-part h4{
-    color: orangered;
-    font-size: 18px;
-}
-.top-heading{
-    color: green;
-}
-.card-deck{
-    
-}
-.top-part h1{
-    font-size: 48px;
-}
-.top-part p{
-    font-size: 20px;
-}
-.heading{
-    margin-top: 20px;
-}
-.image img{
-    width: 500px;
-}
-#navbarNav ul li{
-    margin-right: 20px;
-
-}
-#navbarNav ul li a{
-    color: black;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.button{
-    background-color: #21B573;
-    width: 180px;
-    padding: 10px;
-    color: white;
-    border-radius: 25px;
-    border: none;
-    font-size: 20px;
-    font-family: Roboto, sans-serif;
-}
-.button1{
-    background-color: #21B573;
-    width: 100px;
-    padding: 8px;
-    color: white;
-    border-radius: 25px;
-    border: none;
-    font-size: 15px;
-    font-family: Roboto, sans-serif;
-}
-.button2{
-    background-color: #21B573;
-    width: 150px;
-    padding: 8px;
-    color: white;
-    border-radius: 25px;
-    border: none;
-    font-size: 18px;
-    font-family: Roboto, sans-serif;
-    float: left;
-    margin-top: 30px;
-}
-.container{
-    margin-bottom: 100px;
-    font-family: poppins;
-}
-.middle-part .card-deck .card img{
-    width: 80px;
-    height: 90px;
-   margin: auto;
-   margin-top: 50px;
-   padding: 10px;
-}
-.card{
-    text-align: center;
-}
-.online-course .card-deck .card img{
-    width: 317px;
-    margin-top: 50px;
-}
-.online-course h2{
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 800;
-    font-size: 40px;
-}
-.online-course .card-deck{
-    padding: 0px;
-}
-.menu-bar{
-    float: right;
-}
-.card-title{
-    font-weight: 500;
-    color: #413960;
-    
-}
-.card-text{
-    font-weight:normal;
-    width: 120px;
-    margin: auto;
-}
-.online-course .card-title{
-    text-align: left;
-}
-.online-course .card-text{
-    width: auto;
-    text-align: left;
-}
-.calander{
-    width: 100px;
-    height: auto;
-}
-.online-sub .calander img{
-    position: relative;
-    left: 100px;
-    right: 100px;
-    top: 100px;
-    bottom: 100px;
-    
-}
-.testimonial-image img{
-    width: 150px;
-    margin-left: 30px;
-}
-.testimonial p{
-    width: 580px;
-    margin-top: 30px;
-    font-size: 18px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-
-}
-.testimonial h2{
-    text-align: center;
-    font-weight: 800;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-.last-part{
-    margin-top: 100px;
-    color:white;
-    
-}
-.last-part{
-    background-color: #282531;
-    height: 400px;
-    width: 100%;
-    padding:  50px;
-
-}
-.last-part .row .para p {
-    color: #fff;
-    font-size: 17px;
-    width: 350px;
-    margin-top: -10px;
-}
-.last-part .row .course{
-    line-height: 36px;
-    font-weight: 400;
-    letter-spacing: 0.9px;
-    margin: 0 px;
-    color: white;
-}
-footer{
-    text-align: center;
-    margin-top: 100px;
-}
-.card-footer .all {
-    display: flex;
-    margin-bottom: -100px;
-}
-.card-footer .all .left,
-.card-footer .all .right{
-    display: flex;
-}
-.card-footer .all .right{
-    margin-left: 20px;
-}
-.card-footer .all p{
-    margin-left: 5px;
-}
-.card-footer .all i{
-    height: 100px;
-}
-.container-fluid{
-    width: 100%;
-    margin-bottom: -200px;
-}
-*/
-
 
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
-.frist{
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-image: repeating-radial-gradient(circle at center center, rgba(149, 80, 223,0.32) 0px, rgba(149, 80, 223,0.32) 4px,transparent 4px, transparent 7px),linear-gradient(0deg, rgb(64,86,220) 0%,rgb(64,86,220) 74%); background-size: 25px 25px;
+    
+    height: 80px;
     width: 100%;
-    height: auto;
-    background: #fff;
 }
-div {
-    display: flex;
+label.logo{
+    color: #fff;
+    line-height: 80px;
+    font-size: 35px;
+    padding: 0 100px;
+    font-weight: 700;
+    font-style: italic;
 }
-.menu .left .logo img{
-    max-height: 56px;
-    max-width: 76px;
-    padding: 8px 4px 8px 12px;
-    vertical-align: middle;
-    float: left;
-    margin-left: 10px;
+nav ul{
+    float: right;
+    margin-right: 20px ;
 }
-.menu .left .text h1{
-    line-height: 1;
-    max-width: 480px;
-    outline: none;
-    overflow: hidden;
-    padding: 16px 12px;
-    text-decoration: none;
-    text-overflow: ellipsis;
-    float: left;
-    margin: 0 0 0 4px;
-    font-size: 26px;
-    font-weight: 600;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 7px;
 }
-.menu .right .menu-bar {
+nav ul li a {
+    font-size: 17px;
+    color: #fff;
+    padding: 7px 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover {
+    background-image: repeating-linear-gradient(257deg, hsla(20,0%,93%,0.12) 0px,transparent 2px,hsla(20,0%,93%,0.12) 5px,transparent 9px,hsla(20,0%,93%,0.12) 12px),repeating-linear-gradient(152deg, hsla(20,0%,93%,0.12) 0px,transparent 2px,hsla(20,0%,93%,0.12) 5px,transparent 9px,hsla(20,0%,93%,0.12) 12px),repeating-linear-gradient(222deg, hsla(20,0%,93%,0.12) 0px,transparent 2px,hsla(20,0%,93%,0.12) 5px,transparent 9px,hsla(20,0%,93%,0.12) 12px),linear-gradient(90deg, rgb(37,37,37),rgb(37,37,37));
+    transition: .7s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.11) 0px, rgba(0, 0, 0, 0.11) 12px, rgba(1, 1, 1, 0.16) 12px, rgba(1, 1, 1, 0.16) 24px, rgba(0, 0, 0, 0.14) 24px, rgba(0, 0, 0, 0.14) 36px, rgba(0, 0, 0, 0.23) 36px, rgba(0, 0, 0, 0.23) 48px, rgba(0, 0, 0, 0.12) 48px, rgba(0, 0, 0, 0.12) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(0, 0, 0, 0.21) 72px, rgba(0, 0, 0, 0.21) 84px, rgba(0, 0, 0, 0.24) 84px, rgba(0, 0, 0, 0.24) 96px, rgba(1, 1, 1, 0.23) 96px, rgba(1, 1, 1, 0.23) 108px, rgba(1, 1, 1, 0.07) 108px, rgba(1, 1, 1, 0.07) 120px, rgba(0, 0, 0, 0.01) 120px, rgba(0, 0, 0, 0.01) 132px, rgba(1, 1, 1, 0.22) 132px, rgba(1, 1, 1, 0.22) 144px, rgba(1, 1, 1, 0.24) 144px, rgba(1, 1, 1, 0.24) 156px, rgba(0, 0, 0, 0) 156px, rgba(0, 0, 0, 0) 168px, rgba(0, 0, 0, 0.12) 168px, rgba(0, 0, 0, 0.12) 180px), repeating-linear-gradient(90deg, rgba(1, 1, 1, 0.01) 0px, rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px, rgba(1, 1, 1, 0.15) 24px, rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px, rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px, rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px, rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px, rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px, rgba(1, 1, 1, 0.18) 168px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px, rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px, rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px, rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px), repeating-linear-gradient(135deg, rgba(1, 1, 1, 0.18) 0px, rgba(1, 1, 1, 0.18) 3px, rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px, rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px, rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px, rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px, rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px, rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px, rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, rgba(1, 1, 1, 0.19) 69px), linear-gradient(90deg, rgb(232,22,92), rgb(185,11,226));
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+h1
+{
+    font-size: 50px;
     position: absolute;
-    right: 60px;
-    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: cornsilk;
+    text-transform: uppercase;
 }
-.menu .right .menu-bar ul {
-    display: inline;
-    float: left;
-    list-style-type: none;
-}
-.menu .right .menu-bar ul li {
-    list-style: none;
-    display: inline;
-    margin: 5px;
-    padding: 5px 7px;
-}
-.menu .right .menu-bar ul li a{
-    text-decoration: none;
-    color: rgba(0,0,0,0.6399999857);
-    font-size: 20px;
-    font-weight: 300;
-}
-.menu .right .menu-bar ul li:hover a{
-    color: rgb(12, 11, 11);
-    font-weight: 500;
-    text-decoration: underline;
-}
-.menu .right .search-box i{
-    display: flex;
-    position: absolute;
-    right: 29px;
-    color: rgba(0,0,0,0.6399999857);
-    font-size: 23px;
-    margin-top: 20px;
-}
-.menu .right .search-box i:hover{
-    color: black;
-}
-.second{
-    background: rgb(16, 228, 16);
-}
+
+
+
+
+
+
+
+
+
