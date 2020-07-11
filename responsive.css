@@ -33,13 +33,17 @@
         font-size: 22px;
         color:blue;
         font-weight: 600;
+        overflow: hidden;
     }
     nav ul li a:hover, nav ul li a.active {
         background: blue;
         color: #fff;
         font-style: italic;
+        overflow: hidden;
     }
     #check:checked ~ ul {
         left: 0;
+        overflow: hidden;
     }
+  
 }
